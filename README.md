@@ -28,10 +28,10 @@
 | The program knows to only allow three of the same roman numeral in a row per number before switching to the next numeral up.  | 39, 40  | XXXIX, XL  |
 
  ## Known Bugs
-
+_None._
 
  ## Support and contact details
-
+_Contact Alyssa Moody at alyssanicholemoody@gmail.com._
 
  ## Technologies Used
 
