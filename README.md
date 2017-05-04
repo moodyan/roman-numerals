@@ -9,7 +9,7 @@
 
 | Description  | Input Example | Output Example |
 | ------------- | ------------- | ------------- |
-| The program does not allow for anything other than numbers to be entered.  | a  | alert: "Not a number!"  |
+| The program does not allow for anything other than numbers to be entered.  | a  | --  |
 | The program allows numbers up to 3999.  | 4000  | alert: "Number is too big!"  |
 | The program turns number 1 into I.  | 1  | I  |
 | The program turns number 4 into IV.  | 4  | IV  |

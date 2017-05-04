@@ -1,6 +1,15 @@
 //back-end
 
 function toRomanNumerals(num){
+  var result = "";
+  num = parseInt(num);
+  if (!+num) {
+    return false;
+  }
+  if (num > 3999) {
+    alert("Number is too big!");
+    return false;
+  }
 
 
  console.log(roman);
@@ -10,7 +19,7 @@ function toRomanNumerals(num){
 
 //front-end
 $(document).ready(function(){
-  $("form#pigLatin").submit(function(event){
+  $("form#numberInput").submit(function(event){
     event.preventDefault();
 
     var num = $("#number").val()
