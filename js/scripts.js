@@ -17,7 +17,7 @@ function toRomanNumerals(num){
     }
   }
 
-// Starting at the largest number, continue subtracting from the numbers table and appending as long as the remainder is greater than the numbers value.
+// Start at the largest number in numbers array, continue subtracting from the numbers array and appending roman numeral to result as long as the remainder is greater than the numbers value. Remove the number from the num input.
 
  return result;
 }
