@@ -10,18 +10,13 @@ function toRomanNumerals(num){
     return false;
   }
 
-  for (var i=0; i<numbers.length; i++) {
-
-
-  }
-
   for (var i = 0; i < numbers.length; i++) {
     while (num%numbers[i] < num) {
       result += roman[i];
       num -= numbers[i];
     }
   }
-  
+
 // Starting at the largest number, continue subtracting from the numbers table and appending as long as the remainder is greater than the numbers value.
 
  return result;
